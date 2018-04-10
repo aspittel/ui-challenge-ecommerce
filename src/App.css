@@ -1,0 +1,12 @@
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  color: #4A4A4A;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: rgb(155, 155, 155, 0.05);
+}

@@ -1,0 +1,49 @@
+button {
+  text-transform: uppercase;
+  width: 90%;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px 2px 4px #9B9B9B;
+  color: #4A4A4A;
+  font-weight: normal;
+  position: absolute;
+  left: 5%;
+  bottom: 10px;
+}
+
+.card {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border: 0.25px #9B9B9B solid;
+  box-shadow: 4px 4px 8px #9B9B9B;
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+}
+
+img {
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 2.5%;
+  box-shadow: 1px 1px 4px #9B9B9B;
+  position: absolute;
+}
+
+.item-name {
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.description {
+  margin-left: 7%;
+  position: absolute;
+  bottom: 80px;
+}
