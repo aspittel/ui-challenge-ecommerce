@@ -10,7 +10,7 @@ const ShoppingButton = ({ inCart, buttonColor, toggleInCart }) => {
 
   ) : (
     <span>
-      <i className='fas fa-cart-plus' />
+      <i className='fas fa-cart-plus' type='shopping cart icon' />
       &nbsp;Add To Basket
     </span>
   )
@@ -19,6 +19,7 @@ const ShoppingButton = ({ inCart, buttonColor, toggleInCart }) => {
     <button
       style={{ backgroundColor: buttonColor }}
       onClick={toggleInCart}
+      type='button'
     >
       {content}
     </button>
